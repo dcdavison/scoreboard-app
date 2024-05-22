@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'scoreboard';
+    src: url('/CursedTimerUlil-Aznm.ttf');
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: auto;
+    border: 3px solid red;
+    padding: 20 40px;
+    background: rgb(0, 0, 62);
+    border-radius: 15px;
+}
+
+
+.score-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    color: red;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: scoreboard;
+    font-size: 120px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.teamTitle {
+    color: white;
+    font-size: 35px;
+    margin: 25px;
+    letter-spacing: 2.5px;
+}
+
+.btn-container {
+    margin: 15px;
+    padding: 15px;
+}
+
+.score-btn {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+
+.score-btn:hover {
+    background: white;
+    color: rgb(0, 0, 62);
+}
+
+#newGameContainer {
+    display: flex;
+    align-items: center;
+}
+
+#newGameBtn {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+#newGameBtn:hover {
+    background: white;
+    color: rgb(0, 0, 62);
+}
